@@ -1,0 +1,92 @@
+body{
+    background: linear-gradient(#5500cb , #EFB0C9);
+    font-family: 'Happy Monkey', cursive;
+    color: #ffffff;
+    text-align: center;
+    }
+#babe{
+    width: 200px;
+    border-radius: 50%;
+    border: 8px solid #EFB0C9;
+    }
+h1 , h2 , h3, h4, p{
+    text-shadow: 0px 0px 2px black;
+    }
+.header{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    }
+#bd-date{
+    background: #EFB0C9;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 0px;
+    }
+#bd-age {
+    background: #EFB0C9;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    margin: 10px 0px 5px 0px;
+    }
+.gift{
+        width: 400px;
+        height: 400px;
+        background-image: url("images and gifs/gift-cover.jpg");
+        background-size: cover;
+        border: 8px solid #EFB0C9;
+        border-radius: 5px;
+
+    }
+
+#iambaby{
+    height: 200px;
+    }
+
+.iamreact{
+    margin: 30px auto;
+    }    
+.happy,.react,.genius,.love,.baby{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    }  
+.gift-title{
+    margin-bottom: 15px;
+    }
+.gift-hint{
+    margin-top: 5px;
+    margin-bottom: 35px;
+    }
+#iamhappy:hover{
+    background-image: url("images and gifs/happy.gif");
+    background-size: auto;
+    }
+#iamreact:hover{
+    background-image: url("images and gifs/reaction.gif");
+    background-size: contain;
+    }
+#iamgenius:hover{
+    background-image: url("images and gifs/genius.gif");
+    background-size: auto;
+    }
+#iamlove:hover{
+    background-image: url("images and gifs/love.gif");
+    background-size: auto;
+    }
+#iambaby:hover{
+    background-image: url("images and gifs/baby.gif");
+    background-size: auto;
+    height: 400px;
+    }
+#footer{
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+    }
